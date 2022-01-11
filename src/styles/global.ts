@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle `
 
     --text-title: #363F5F;
     --text-body: #969CB3;
-    
+
     --background: #f0f2f5;
     --shape: #FFFFFF;
   }
@@ -18,6 +18,15 @@ export const GlobalStyle = createGlobalStyle `
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
   }
 
   html {
