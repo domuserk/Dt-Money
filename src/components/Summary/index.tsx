@@ -6,7 +6,7 @@ import { TransactionsCoxtext } from "../../TransactionsContext";
 import { useContext } from "react";
 
 export function Summary () {
-  const data = useContext(TransactionsCoxtext);
+  const { transactions } = useContext(TransactionsCoxtext);
   
   return (
     <Container>

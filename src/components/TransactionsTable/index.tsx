@@ -3,7 +3,7 @@ import { TransactionsCoxtext } from "../../TransactionsContext";
 import { Container } from "./styles";
 
 export function TransactionsTable() {
-  const transactions = useContext(TransactionsCoxtext);
+  const { transactions } = useContext(TransactionsCoxtext);
  
   return (
     <Container>
