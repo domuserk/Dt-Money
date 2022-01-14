@@ -36,6 +36,7 @@ export const TransactionsProvider = ({ children }: TransactionsProviderProps) =>
       ...transactionInput, 
       createdAt: new Date()
     });
+    
     const { transaction } = response.data;
 
     setTransactions([
